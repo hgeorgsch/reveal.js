@@ -42,6 +42,7 @@ html
         script(src="plugin/notes/notes.js")
         script(src="plugin/markdown/markdown.js")
         script(src="plugin/highlight/highlight.js")
+        script(src="plugin/math/math.js")
         script.
                 // More info about initialization & config:
                 // - https://revealjs.com/initialization/
@@ -55,5 +56,12 @@ html
                         pdfSeparateFragments: false,
 
                         // Learn about plugins: https://revealjs.com/plugins/
-                        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+                        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ],
+                        math: {
+                              mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+	                      config: 'TeX-AMS_HTML-full',
+		              // pass other options into `MathJax.Hub.Config()`
+			      TeX: { Macros: { RR: "{\\bf R}" } }
+			          },
                 });
+
