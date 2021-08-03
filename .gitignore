@@ -13,3 +13,4 @@ dist/*.map
 dist
 index.html
 .*.swp
+./*.html
