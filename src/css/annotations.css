@@ -6,6 +6,7 @@
    // font-style: italic ;
 }
 strong,
+.alert,
 .ntnupurple {
    color: #b01b81 ;
 }
@@ -24,10 +25,11 @@ strong,
 .ntnuyellow {
    color: #f7d019 ;
 }
+em,
 .ntnuviolet {
    color: #482776 ;
 }
-.ntnuviolet {
+.ntnuorange {
    color: #ef8114 ;
 }
 .ntnublue {
