@@ -1,0 +1,17 @@
+/* CSS file for titlepage, controls, and repeated elements */
+
+/* Styling the titlepage */
+.reveal .slides .titlepage h1 {
+    font-size: 56pt ;
+}
+.reveal .slides .titlepage h2 {
+    font-size: 42pt ;
+}
+/* Styling slide template */
+.logo {
+   position: fixed ;
+   left: 0px ;
+   bottom: 0px ;
+   margin: 5px ;
+   width: 92px ;
+}

@@ -1,0 +1,38 @@
+extends ./template.jade
+
+block vars
+  - var title = "Ingeniørdannelse"
+  - var subtitle = "Kva har danning i teknologifag å gjera?"
+  - var author = "Hans Georg Schaathun"
+  - var institute = "NTNU, Noregs Teknisk-Naturvitskaplege Universitet"
+  - var date = "November 2020"
+  - var talksroot = "http://kerckhoffs.schaathun.net/talks/udit2020/"
+
+block slides
+
+   section
+
+      div.column
+
+         h1 Example slide
+
+         p
+           This is a slide with text
+
+      div.column
+
+         h1 A quote by Simon
+
+         blockquote.
+            The older kind of professional school did not know how to educate
+            for professional design at an intellectual level appropriate to
+            a university; the newer kind of school nearly abdicated responsibility
+            for training in the core professional skill.
+         p.credit Sciences of the Artificial 1996
+
+
+   section
+
+      div
+         img(src="https://thumbs-prod.si-cdn.com/g2BFyvLepukZ0kuIz7A_KKHsVAc=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/a9/da/a9dabc78-549e-4c46-8996-2539578768c3/1280px-sophia_robot.jpg")
+

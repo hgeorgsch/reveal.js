@@ -1,0 +1,14 @@
+.reveal .slides img {
+   border: none ;
+   background: none ;
+   box-shadow: none ;
+}
+.reveal .slides img.rightbox {
+   height: 600px;
+}
+.reveal .slides img.leftbox {
+   height: 600px;
+}
+.reveal .slides .mediacredit {
+   font-size: 16pt ;
+}

@@ -1,0 +1,172 @@
+.reveal .slides h1 {
+    font-size: 32pt ;
+}
+
+.reveal .slides .formulatable .comment {
+   color: #ccbd8f ;
+}
+.reveal .slides section img {
+   border: none ;
+   margin: 10px ;
+}
+.reveal .slides section quotation {
+   font-style: italic ;
+}
+
+.ntnupurple {
+   color: #ad208e ;
+}
+.small {
+   font-size: 80% ;
+}
+
+/* Tables */
+.reveal .slides .formulatable td {
+   border-bottom: black solid  2px ;
+   padding-bottom: 20px ;
+   padding-top: 20px ;
+}
+
+
+/* SVG */
+svg {
+   /* border: 1pt solid black ; */
+   /* text-align: right ; /**/
+   display: inline-block ;
+   margin-left: auto ;
+   margin-right: auto ;
+}
+.tick text {
+   font-size: 14pt ;
+   font-style: italic ;
+}
+.axislabel {
+   font-size: 18pt ;
+   font-style: bold ;
+}
+.bigformula {
+   font-size: 48pt ;
+   font-style: italic ;
+   /* fill: #ccbd8f ; /**/
+}
+.bigmathlabel {
+   font-size: 30pt ;
+   font-style: italic ;
+   /* fill: #ccbd8f ; /**/
+}
+.mathlabel {
+   font-size: 25pt ;
+   font-style: italic ;
+   /* fill: #ccbd8f ; /**/
+}
+
+.curlyBrace {
+    stroke: #ccbd8f ;
+    stroke-width: 5px;
+    fill: none;
+}
+.svgmathjax {
+   font-size: 12pt ;
+   color: black
+}
+
+/* GUI elements */
+button {
+   font-size: 24pt ;
+}
+
+/* Key legend */
+.titlepage .keyrow {
+   padding-top: 110px  ;
+}
+.titlepage .keykey {
+   margin-left: 35px ;
+   margin-right: 35px ;
+}
+
+/* Arranging formulæ and graphics */
+.reveal .vcentre {
+   display: flex ;
+   justify-content: center ;
+   align-items: center ;
+}
+.reveal .column {
+   float: left ;
+   width: 790px ;
+}
+.reveal .column3 {
+   float: left ;
+   width: 490px ;
+}
+.reveal .column4 {
+   float: left ;
+   width: 25% ;
+}
+.reveal .columnmid {
+   float: left ;
+   width: 600px ;
+}
+.formulabox {
+   position: absolute ;
+   left: 30%;
+   bottom: 0px ;
+}
+
+/* Position */
+.centre {
+   text-align: center;
+}
+.centerbox {
+   position: center ;
+}
+.fixbox {
+   position: fixed ;
+}
+.rhplot {
+   float: right  ;
+}
+.leftbox {
+   float: left  ;
+}
+.rightbox {
+   float: right  ;
+}
+
+/* Fragments */
+.reveal .slides section .formulabox .fragment {
+   height: 0pt ;
+   width: auto ;
+}
+.reveal .slides section .formulabox .fragment.visible {
+   height: auto ;
+   width: auto ;
+   opacity: 0.5 ;
+   -webkit-transition: width 1s, height 1s, opacity 1s; /* Safari */
+   transition: width 1s, height 1s, opacity 1s 
+}
+.reveal .slides section .formulabox .fragment.visible.current-fragment {
+   height: auto ;
+   width: auto ;
+   opacity: 1 ;
+   -webkit-transition: width 1s, height 1s, opacity 1s; /* Safari */
+   transition: width 1s, height 1s, opacity 1s 
+}
+
+.reveal table.noborder {
+   border: none ;
+}
+.reveal table.noborder tbody {
+   border: none ;
+}
+.reveal table.noborder tr {
+   border: none ;
+}
+.reveal table.noborder tr td {
+   border: none ;
+}
+
+.credit {
+   text-align: right ;
+   font-style: italic ;
+}
+

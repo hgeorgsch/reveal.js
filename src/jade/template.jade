@@ -1,0 +1,59 @@
+block vars
+doctype html
+html
+   head
+     meta(charset="utf-8")
+     meta(name="viewport",content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=no")
+
+     title #{title}
+
+     link(rel="stylesheet",href="dist/reset.css")
+     link(rel="stylesheet",href="dist/reveal.css")
+     link(rel="stylesheet",href="dist/slides.css")
+     link(rel="stylesheet",href="dist/theme/white.css" id="theme")
+
+     link(rel="stylesheet",href="plugin/highlight/monokai.css",id="highlight-theme")
+   body
+     img(class="logo",src="fig/ntnu.svg")
+     div.reveal
+       div.slides
+          block titleslide
+            section(class="titlepage",data-audio-src="audio/titlepage.ogg")
+                hgroup
+                  h1=title
+                  h2=subtitle
+                  p(class="author")=author
+                  p(class="institute")=institute
+                  p(class="date")=date
+                aside
+                  div(class="keyrow")
+                     span(class="keykey")
+                        kbd Esc
+                        span  Oversikt
+                     span(class="keykey")
+                        kbd F
+                        span Fullskjerm
+                     span(class="keykey")
+                        kbd Space
+                        span  Neste
+          block slides
+     div
+        script(src="dist/reveal.js")
+        script(src="plugin/notes/notes.js")
+        script(src="plugin/markdown/markdown.js")
+        script(src="plugin/highlight/highlight.js")
+        script.
+                // More info about initialization & config:
+                // - https://revealjs.com/initialization/
+                // - https://revealjs.com/config/
+                Reveal.initialize({
+                        hash: true,
+                        width: 1600,
+                        height: 900,
+                        controls: true,
+                        progress: true,
+                        pdfSeparateFragments: false,
+
+                        // Learn about plugins: https://revealjs.com/plugins/
+                        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+                });
