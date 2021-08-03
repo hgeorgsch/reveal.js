@@ -1,11 +1,37 @@
 
 .credit {
    text-align: right ;
+   font-size: 80% ;
+   color: #6096d0 ;
    // font-style: italic ;
 }
 strong,
 .ntnupurple {
-   color: #ad208e ;
+   color: #b01b81 ;
+}
+.ntnubeige {
+   color: #cfb887 ;
+}
+.ntnultblue {
+   color: #6096d0 ;
+}
+.ntnugreen {
+   color: #bcd025 ;
+}
+.ntnuturquoise {
+   color: #3cbfbe ;
+}
+.ntnuyellow {
+   color: #f7d019 ;
+}
+.ntnuviolet {
+   color: #482776 ;
+}
+.ntnuviolet {
+   color: #ef8114 ;
+}
+.ntnublue {
+   color: #00509e ;
 }
 .small {
    font-size: 80% ;
@@ -13,4 +39,8 @@ strong,
 
 .reveal .slides section quotation {
    font-style: italic ;
+}
+.reveal .slides section blockquote {
+   font-style: italic ;
+   text-align: left ;
 }
