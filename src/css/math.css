@@ -1,24 +1,8 @@
-.reveal .slides h1 {
-    font-size: 32pt ;
-}
 
 .reveal .slides .formulatable .comment {
    color: #ccbd8f ;
 }
-.reveal .slides section img {
-   border: none ;
-   margin: 10px ;
-}
-.reveal .slides section quotation {
-   font-style: italic ;
-}
 
-.ntnupurple {
-   color: #ad208e ;
-}
-.small {
-   font-size: 80% ;
-}
 
 /* Tables */
 .reveal .slides .formulatable td {
@@ -75,36 +59,11 @@ button {
    font-size: 24pt ;
 }
 
-/* Key legend */
-.titlepage .keyrow {
-   padding-top: 110px  ;
-}
-.titlepage .keykey {
-   margin-left: 35px ;
-   margin-right: 35px ;
-}
-
 /* Arranging formulæ and graphics */
 .reveal .vcentre {
    display: flex ;
    justify-content: center ;
    align-items: center ;
-}
-.reveal .column {
-   float: left ;
-   width: 790px ;
-}
-.reveal .column3 {
-   float: left ;
-   width: 490px ;
-}
-.reveal .column4 {
-   float: left ;
-   width: 25% ;
-}
-.reveal .columnmid {
-   float: left ;
-   width: 600px ;
 }
 .formulabox {
    position: absolute ;
@@ -123,12 +82,6 @@ button {
    position: fixed ;
 }
 .rhplot {
-   float: right  ;
-}
-.leftbox {
-   float: left  ;
-}
-.rightbox {
    float: right  ;
 }
 
@@ -163,10 +116,5 @@ button {
 }
 .reveal table.noborder tr td {
    border: none ;
-}
-
-.credit {
-   text-align: right ;
-   font-style: italic ;
 }
 

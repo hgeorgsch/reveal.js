@@ -12,3 +12,7 @@
 .reveal .slides .mediacredit {
    font-size: 16pt ;
 }
+.reveal .slides section img {
+   border: none ;
+   margin: 10px ;
+}

@@ -1,0 +1,22 @@
+.reveal .column {
+   float: left ;
+   width: 790px ;
+}
+.reveal .column3 {
+   float: left ;
+   width: 490px ;
+}
+.reveal .column4 {
+   float: left ;
+   width: 25% ;
+}
+.reveal .columnmid {
+   float: left ;
+   width: 600px ;
+}
+.leftbox {
+   float: left  ;
+}
+.rightbox {
+   float: right  ;
+}

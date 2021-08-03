@@ -1,0 +1,16 @@
+
+.credit {
+   text-align: right ;
+   // font-style: italic ;
+}
+strong,
+.ntnupurple {
+   color: #ad208e ;
+}
+.small {
+   font-size: 80% ;
+}
+
+.reveal .slides section quotation {
+   font-style: italic ;
+}
