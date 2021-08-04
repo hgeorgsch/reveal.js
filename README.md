@@ -12,7 +12,9 @@ The main features of this fork are
 1. Own CSS styles are found under src/css, they may be modified.
 2. Jade templates are found under src/jade.  The presentation is
    built from index.jade which should be modified to hold your presentation.
-3. The sync.sh script is used to copy necessary files to a web server
+3. Install necessary tools: `npm i`
+4. Compile the jade code: `grunt`
+5. The sync.sh script is used to copy necessary files to a web server
    or other location.  Usage: `sh sync.sh INSDIR`
 
 <p align="center">
