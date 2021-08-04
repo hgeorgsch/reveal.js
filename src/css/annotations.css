@@ -46,3 +46,6 @@ em,
    font-style: italic ;
    text-align: left ;
 }
+.reveal .slides section dl dt {
+   color: #bcd025 ;
+}
