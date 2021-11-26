@@ -41,11 +41,11 @@
     "core-js": "^3.12.1",
     "fitty": "^2.3.0",
     "glob": "^7.1.7",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-connect": "^5.7.0",
-    "gulp-eslint": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
     "gulp-header": "^2.0.9",
     "gulp-tap": "^2.0.0",
     "gulp-zip": "^4.2.0",
@@ -100,7 +100,6 @@
   "dependencies": {
     "grunt": "^1.4.1",
     "grunt-contrib-concat": "^2.0.0",
-    "grunt-contrib-jade": "^0.7.0",
-    "npm": "^7.0.0"
+    "grunt-contrib-pug": "^3.0.0"
   }
 }
