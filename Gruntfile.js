@@ -1,11 +1,11 @@
 module.exports = function(grunt) {
-   grunt.loadNpmTasks("grunt-contrib-jade") ;
+   grunt.loadNpmTasks("grunt-contrib-pug") ;
    grunt.loadNpmTasks("grunt-contrib-concat") ;
    // grunt.loadNpmTasks("grunt-contrib-copy") ;
 
-   grunt.registerTask("default", [ "jade", "concat"  ] ) ;
+   grunt.registerTask("default", [ "pug", "concat"  ] ) ;
    grunt.initConfig( {
-      "jade": {
+      "pug": {
 	 "security":  {
 	    "files": {
                "index.html": "src/jade/index.jade",
