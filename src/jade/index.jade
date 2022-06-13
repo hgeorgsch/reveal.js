@@ -1,38 +1,50 @@
-extends ./template.jade
+extends template.jade
 
 block vars
-  - var title = "reveal.js"
-  - var subtitle = "A simple template"
+  - var title = "CHAOS - Computer Assisted Haptic Orthopaedic Surgery"
   - var author = "Hans Georg Schaathun"
   - var institute = "NTNU, Noregs Teknisk-Naturvitskaplege Universitet"
-  - var date = " Tue  3 Aug 11:40:24 UTC 2021 "
-  - var talksroot = "https://github.com/hgeorgsch/reveal.js"
+  - var date = "11 May 2020"
+  - var talksroot = "http://kerckhoffs.schaathun.net/talks/chaos2020may/"
+  - var talksroot = ""
 
 block slides
 
    section
-
-      div.column
-
-         h1 Example slide
-
-         p.
-           This is a slide with text
-
-      div.column
-
-         h1 A quote by Simon
-
-         blockquote.
-            The older kind of professional school did not know how to educate
-            for professional design at an intellectual level appropriate to
-            a university; the newer kind of school nearly abdicated responsibility
-            for training in the core professional skill.
-         p.credit Sciences of the Artificial 1996
-
+      h1 Ålesund Biomechanical Lab
+      img(src="fig/aleksander.jpg",height="750px")
+      p Ålesund Hospital & NTNU in Ålesund
+   section
+       h1 Robot with skeleton
+       iframe(width="560" height="315" src="https://www.youtube.com/embed/gua-6TwGgtQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+   section
+      h1 CHAOS Simulator
+      img(src="fig/chaos.png")
+   section
+      h1 MR Imaging
+      img(src="fig/mr.png")
 
    section
+      h1 Segmentation
+      img(src="fig/segment.png")
+   section
+      h1 Problem
 
-      div
-         img(src="https://thumbs-prod.si-cdn.com/g2BFyvLepukZ0kuIz7A_KKHsVAc=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/a9/da/a9dabc78-549e-4c46-8996-2539578768c3/1280px-sophia_robot.jpg")
+      p.ntnupurple Surgery on the 3D Model
+
+      ul
+        li.fragment Soft Tissue Deformation (Continuous Changes/Differential Equations)
+          ul
+            li Muscle, Fat, etc.
+        li.fragment Cutting and Tear (Topological Changes/Discrete Events)
+          ul
+            li Scalpel
+        li.fragment Real-Time Interaction
+          ul
+            li Visualisation and Haptic Feedback
+        li.fragment Interaction between Tissue Types 
+        li.fragment Interaction with Rigid Bodies
+          ul
+            li Skeleton, including movement (bending of the knee)
+
 
