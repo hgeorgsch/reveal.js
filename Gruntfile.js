@@ -8,7 +8,7 @@ module.exports = function(grunt) {
       "pug": {
 	 "security":  {
 	    "files": {
-               "index.html": "src/jade/index.jade",
+               "demo/index.html": "src/demo/index.jade",
 	    }
 	 }
       },
