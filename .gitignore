@@ -11,6 +11,5 @@ node_modules/
 .sass-cache
 dist/*.map
 dist
-index.html
 .*.swp
 ./*.html
