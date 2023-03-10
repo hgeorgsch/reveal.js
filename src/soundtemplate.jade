@@ -18,13 +18,15 @@ html
      div.reveal
        div.slides
           block titleslide
-            section(class="titlepage")
+            section(class="titlepage",data-audio-src="audio/titlepage.ogg")
                 hgroup
                   h1=title
                   h2=subtitle
                   p(class="author")=author
                   p(class="institute")=institute
                   p(class="date")=date
+                aside
+                  em  Start the sound player below, please.
                 aside
                   div(class="keyrow")
                      span(class="keykey")
@@ -43,6 +45,7 @@ html
         script(src="../plugin/markdown/markdown.js")
         script(src="../plugin/highlight/highlight.js")
         script(src="../plugin/math/math.js")
+        script(src="../plugin/audio-slideshow/plugin.js")
         script.
                 // More info about initialization & config:
                 // - https://revealjs.com/initialization/
@@ -56,7 +59,7 @@ html
                         pdfSeparateFragments: false,
 
                         // Learn about plugins: https://revealjs.com/plugins/
-                        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ],
+                        plugins: [ RevealAudioSlideshow, RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ],
                         math: {
                               mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
                               config: 'TeX-AMS_HTML-full',
