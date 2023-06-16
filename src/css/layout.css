@@ -2,3 +2,8 @@
     font-size: 32pt ;
     text-shadow: none; 
 }
+.reveal .slides p.word {
+    font-size: 64pt ;
+    font-weight: bold ;
+    text-shadow: none; 
+}
