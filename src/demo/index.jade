@@ -1,4 +1,4 @@
-extends ../template.jade
+extends ../synthtemplate.jade
 
 block vars
   - var title = "reveal.js"
@@ -10,7 +10,8 @@ block vars
 
 block slides
 
-   section
+   section(data-audio-src="audio/slide01.mp3")
+
 
       div.column
 
@@ -31,7 +32,7 @@ block slides
          p.credit Sciences of the Artificial 1996
 
 
-   section
+   section(data-audio-src="audio/slide02.mp3")
 
       div
          img(src="https://thumbs-prod.si-cdn.com/g2BFyvLepukZ0kuIz7A_KKHsVAc=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/a9/da/a9dabc78-549e-4c46-8996-2539578768c3/1280px-sophia_robot.jpg")

@@ -1,0 +1,6 @@
+
+reveal.js
+
+A simple template
+
+I use this git repo as a basis for new talks.  It has been set up to keep several talks in a single repository, with special features of my own, including CSS styles, voice track, and makefile for off-line voice synthesising.

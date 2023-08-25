@@ -1,0 +1,5 @@
+*.ogg
+*.txt
+*.mp3
+!*.html
+!titlepage.txt

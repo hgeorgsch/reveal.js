@@ -28,6 +28,8 @@ html
                 aside
                   em  Start the sound player below, please.
                 aside
+                  a(href="?showNotes=true")  Show sound track as text
+                aside
                   div(class="keyrow")
                      span(class="keykey")
                         kbd Esc
@@ -38,6 +40,11 @@ html
                      span(class="keykey")
                         kbd Space
                         span  Neste
+                aside(class="notes")
+                  p=title
+                  p=subtitle
+
+                  p This is a talk for the taught module in machine vision, AIS2204 at NTNU.
           block slides
      div
         script(src="../dist/reveal.js")
@@ -61,6 +68,7 @@ html
                         // Learn about plugins: https://revealjs.com/plugins/
                         plugins: [ RevealAudioSlideshow, RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ],
                         audio: {
+                                advance: 2,
                                 defaultDuration: 1800,
                                 playerOpacity: 0.5
 
