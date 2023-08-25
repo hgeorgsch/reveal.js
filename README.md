@@ -6,6 +6,13 @@ The main features of this fork are
 
 - own CSS styles with NTNU logo. 
 - setup to build HTML files from jade, using grunt.
+- example of off-line voice synthesising
+
+# Caveats
+
++ The voice synthesiser does badly on long sentences, making pauses
+  where there should be none.
+  This is seen on the quote from Simon in the demo slides.
 
 # How to use the special features 
 
