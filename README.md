@@ -37,6 +37,20 @@ reveal.js is an open source HTML presentation framework. It enables anyone with 
 
 The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX typesetting](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
 
+# Cloning as a subtree
+
+It is often useful to keep many slide sets in a single repository.
+The following commands clones reveal.js as a git subtree:
+```bash
+git remote add revealjs git@github.com:hgeorgsch/reveal.js
+git subtree add --prefix subdir revealjs master --squash
+```
+
+To pull upstream changes, we can similarly do
+```bash
+git subtree pull --prefix subdir revealjs master --squash
+```
+
 ---
 
 Want to create reveal.js presentation in a graphical editor? Try <https://slides.com>. It's made by the same people behind reveal.js.

@@ -13,3 +13,4 @@ dist/*.map
 dist
 .*.swp
 ./*.html
+/demo
