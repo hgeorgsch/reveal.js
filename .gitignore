@@ -14,3 +14,9 @@ dist
 .*.swp
 ./*.html
 /demo
+presentation
+presentation.zip
+dist/reveal.es5.js
+react/dist
+react/demo/dist
+dev.html
